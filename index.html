@@ -12,10 +12,10 @@
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
                     <span class="ml-3  ">
-                        <img class="max-w-3xs " src="src/style/images/Logo_OnDev.png" alt="">
+                        <img class="max-w-3xs " src="src/images/Logo_OnDev.png" alt="Logo Da OnDev">
                     </span>
                 </div>
-                <div class="hidden md:flex items-center space-x-8">
+                <div class="hidden md:flex items-center0 space-x-8">
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#hero">Início</a>
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#skills">Habilidades</a>
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="">Projetos</a>
@@ -26,7 +26,7 @@
         </nav>
     </header>
 
-    <section id="hero" class="pt-20 pb-16 bg-linear-to-br from-blue-50 via-indigo-50 to-purple-50 h-[700px] flex items-center">
+    <section id="hero" class="pt-20 pb-16 bg-linear-to-br from-blue-50 via-indigo-50 to-purple-50 h-auto flex items-center">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
@@ -45,15 +45,18 @@
                         <button class="cursor-pointer border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors">Ver Projetos</button>
                     </div>
                 </div>
-                <div class="relative">
-                    <div class="w-full h-auto max-h-96 overflow-hidden rounded-2xl shadow-2xl">
-                        <img class="w-full h-full object-cover" src="src/style/images/79b7be909f-0aed637bf03d124caf5c.png" alt="">
+                <div class="block">
+                    <div class="w-full h-auto aspect-video overflow-hidden rounded-2xl shadow-2xl">
+                        <img class="w-full h-auto object-cover" src="src/images/79b7be909f-0aed637bf03d124caf5c.png" alt="Imagem ilustrativa setup de desenvolvimento">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="skills" class="flex bg-linear-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% shadow h-[700px]">
+    <section id="skills" class=" justify-center bg-linear-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% shadow h-auto lg:h-screen">
+        <div class="justify-center">
+            <h2 class="text-4xl font-bold text-center pt-16">Habilidades</h2>
+        </div>
         <div class="grid grid-cols-3 gap-x-10justify-center items-center max-w-2xl mx-auto py-16">
             <div class="">
                 <span>
@@ -73,7 +76,92 @@
         </div>
     </section>
     <section id="projetos">
-        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 " style="padding: 10px;">
+            <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover " src="src/images/Franquia_GTA.png" alt="Imagem do card franquia gta">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">Franquia GTA</h2>
+                    <p class="text-gray-600 mt-2">
+                    Site criado para mostrar sobre a franquia de jogos Grand Theft Auto (GTA), incluindo informações sobre os jogos, personagens e história.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/EmailMarketing.png" alt="Imagem do card">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">EmailMarketing Nike</h2>
+                    <p class="text-gray-600 mt-2">
+                    Projeto de email marketing para a Nike, destacando novos produtos e promoções especiais para os clientes.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/AngelModas.png" alt="Imagem do card">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">Linktree AngelModas</h2>
+                    <p class="text-gray-600 mt-2">
+                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/BalleBot.png" alt="Imagem do card">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <p class="text-gray-600 mt-2">
+                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/CyberFix.png" alt="Imagem do card">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <p class="text-gray-600 mt-2">
+                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/LojaLacoste.png" alt="Imagem do card">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <p class="text-gray-600 mt-2">
+                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover rounded-2x1" src="#" alt="Imagem do card">
+                <div class="p-5">
+                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <p class="text-gray-600 mt-2">
+                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                    </p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
+                    Abrir projeto
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
