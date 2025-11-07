@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Full Stack - Isaac Aguiar</title>
-    <link rel="stylesheet" href="web/src/styles/output.css">
+    <link rel="stylesheet" href="build/style/output.css">
 </head>
-<body class="bg-gray-50 font-inter pt-50 md:pt-0">
+<body class="bg-gray-50 font-inter pt-50 md:pt-0 ">
     <header class="fixed top-0  w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50 ">
         <nav class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
-                    <span class="ml-3 text-xl font-semibold text-gray-900">Isaac Aguiar</span></div>
+                    <span class="ml-3  ">
+                        <img class="max-w-3xs " src="src/style/images/Logo_OnDev.png" alt="">
+                    </span>
+                </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#">Sobre</a>
-                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="">Skills</a>
+                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#hero">Início</a>
+                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#skills">Habilidades</a>
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="">Projetos</a>
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="">Experiência</a>
                     <a class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors" href="">Contato</a>
@@ -23,11 +26,11 @@
         </nav>
     </header>
 
-    <section class="pt-20 pb-16 bg-linear-to-br from-blue-50 via-indigo-50 to-purple-50 h-[700px] flex items-center">
+    <section id="hero" class="pt-20 pb-16 bg-linear-to-br from-blue-50 via-indigo-50 to-purple-50 h-[700px] flex items-center">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                    <div class="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-6">Full Stack Developer</div>
+                    <div class="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-6">Isaac Aguiar > Full Stack Developer</div>
                     <h1 class="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Criando Experiências
                         <span class="bg-linear-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                             digitais incríveis
@@ -44,11 +47,33 @@
                 </div>
                 <div class="relative">
                     <div class="w-full h-auto max-h-96 overflow-hidden rounded-2xl shadow-2xl">
-                        <img class="w-full h-full object-cover" src="web/src/img/79b7be909f-0aed637bf03d124caf5c.png" alt="">
+                        <img class="w-full h-full object-cover" src="src/style/images/79b7be909f-0aed637bf03d124caf5c.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="skills" class="flex bg-linear-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% shadow h-[700px]">
+        <div class="grid grid-cols-3 gap-x-10justify-center items-center max-w-2xl mx-auto py-16">
+            <div class="">
+                <span>
+                    <img class="max-w-30" src="src/icon/HTML5-Logo.png" alt="Logo HTML5">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <img src="src/icon/CSS-Logo.png" alt="Logo CSS3">
+                </span>  
+            </div>
+            <div>
+                <span>
+                    <img src="src/icon/JS-Logo.png" alt="Logo JavaScript">
+                </span>
+            </div>
+        </div>
+    </section>
+    <section id="projetos">
+        
     </section>
 </body>
 </html>
