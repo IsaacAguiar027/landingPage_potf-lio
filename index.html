@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="build/style/output.css">
 </head>
 <body class="bg-gray-50 font-inter pt-50 md:pt-0 ">
-    <header class="fixed top-0  w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50 ">
+    <header class="fixed top-0  w-full bg-white/80 backdrop-blur-md border-b border-gray-200 z-50 items-center">
         <nav class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
@@ -15,12 +15,12 @@
                         <img class="max-w-3xs " src="src/images/Logo_OnDev.png" alt="Logo Da OnDev">
                     </span>
                 </div>
-                <div class="hidden md:flex items-center0 space-x-8">
+                <div class="hidden md:flex items-center0 space-x-8 items-center">
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#hero">Início</a>
                     <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#skills">Habilidades</a>
-                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="">Projetos</a>
-                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="">Experiência</a>
-                    <a class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors" href="">Contato</a>
+                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#serviços">Serviços</a>
+                    <a class="text-gray-700 hover:text-blue-600 transition-colors" href="#projetos">Projetos</a>
+                    <a class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors" href="#contato">Contato</a>
                 </div>
             </div>
         </nav>
@@ -36,9 +36,12 @@
                             digitais incríveis
                         </span>
                     </h1>
-                    <p class="text-xl text-gray-600 mb-8 leading-relaxed"> Desenvolvedor Full Stack especializado em 
-                        React, Node.js e tecnologias modernas.
-                        Transformo ideias em soluções digitais inovadoras.
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed"> Desenvolvedor Full Stack em formação, 
+                        apaixonado por tecnologia. Estou mergulhando no ecossistema Web para criar soluções web completas, 
+                        do backend ao frontend responsivo. Transformo aprendizado em prática, com foco em escrever códigos limpos, 
+                         e que realmente entregam valor ao usuário.
+
+
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
                         <button class="cursor-pointer bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center">Download</button>
@@ -53,7 +56,8 @@
             </div>
         </div>
     </section>
-    <section id="skills" class=" justify-center bg-linear-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% shadow h-auto lg:h-screen">
+
+    <section id="skills" class=" max-w-7xl mx-auto justify-center bg-linear-to-b  h-auto lg:h-[500px]">
         <div class="justify-center">
             <h2 class="text-4xl font-bold text-center pt-16">Habilidades</h2>
         </div>
@@ -75,10 +79,50 @@
             </div>
         </div>
     </section>
-    <section id="projetos">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 " style="padding: 10px;">
-            <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover " src="src/images/Franquia_GTA.png" alt="Imagem do card franquia gta">
+
+    <section id="serviços" class="max-w-7xl mx-auto flex flex-col items-center">
+
+       <div class="text-center m-8">
+        <h2 class="text-4xl font-bold m-6">Serviços</h2>
+        <p>Transformando ideias em experiências digitais intuitivas.</p>
+       </div>
+
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 m-10 items-center justify-center">
+
+        <div class="flex flex-col items-center text-center shadow-2xl rounded-2xl">
+            <img class="m-6" src="src/icon/chart-line-up.png" alt="">
+            <h2 class="text-2xl font-black m-4">Landing Page</h2>
+            <p class="m-4">Aumenta sua conversão com uma página rápida, <br> moderna e focada no objetivo.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center shadow-2xl rounded-2xl">
+            <img class="m-6" src="src/icon/computer.png" alt="">
+            <h2 class="text-2xl font-black m-4">Desenvolvimento de Sites</h2>
+            <p class="m-4">Criamos sites profissionais, responsivos e <br> prontos para destacar seu négocio.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center shadow-2xl rounded-2xl">
+            <img class="m-6" src="src/icon/mobile-button.png" alt="">
+            <h2 class="text-2xl font-black m-4">Aplicativo web</h2>
+            <p class="m-4">Solução web sob medida, com performance e <br> experiência de uso excepcionais.</p>
+        </div>
+
+        <div class="flex flex-col items-center text-center shadow-2xl rounded-2xl">
+            <img class="m-6" src="src/icon/ballot.png" alt="">
+            <h2 class="text-2xl font-black m-4">LinkTree</h2>
+            <p class="m-4">Tenha todos os seus links em um só lugar, <br> com identidade visual única e profissional.</p>
+        </div>
+
+       </div>
+    </section>
+
+    <section id="projetos" class="max-w-7xl mx-auto ">
+        <div class="flex justify-center">
+            <h2 class="text-4xl font-bold m-16">Projetos</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 m-4">
+            <div class="max-w-sm mx-auto backdrop-blur-lg bg-white/10 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover" src="src/images/Franquia_GTA.png" alt="Imagem do card franquia gta">
                 <div class="p-5">
                     <h2 class="text-xl font-semibold text-gray-800">Franquia GTA</h2>
                     <p class="text-gray-600 mt-2">
@@ -89,8 +133,9 @@
                     </button>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/EmailMarketing.png" alt="Imagem do card">
+
+            <div class="max-w-sm mx-auto bg-white  rounded-2xl  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover" src="src/images/EmailMarketing.png" alt="Imagem do card">
                 <div class="p-5">
                     <h2 class="text-xl font-semibold text-gray-800">EmailMarketing Nike</h2>
                     <p class="text-gray-600 mt-2">
@@ -101,8 +146,9 @@
                     </button>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/AngelModas.png" alt="Imagem do card">
+
+            <div class="max-w-sm mx-auto bg-white  rounded-2xl  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover" src="src/images/AngelModas.png" alt="Imagem do card">
                 <div class="p-5">
                     <h2 class="text-xl font-semibold text-gray-800">Linktree AngelModas</h2>
                     <p class="text-gray-600 mt-2">
@@ -113,48 +159,39 @@
                     </button>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/BalleBot.png" alt="Imagem do card">
+
+            <div class="max-w-sm mx-auto bg-white  rounded-2xl  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover" src="src/images/BalleBot.png" alt="Imagem do card">
                 <div class="p-5">
-                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <h2 class="text-xl font-semibold text-gray-800">Landing Page BalleBot</h2>
                     <p class="text-gray-600 mt-2">
-                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                    Criando Landing Page que converte.
                     </p>
                     <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
                     Abrir projeto
                     </button>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/CyberFix.png" alt="Imagem do card">
+
+            <div class="max-w-sm mx-auto bg-white  rounded-2xl  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover" src="src/images/CyberFix.png" alt="Imagem do card">
                 <div class="p-5">
-                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <h2 class="text-xl font-semibold text-gray-800">Formulário CyberFix</h2>
                     <p class="text-gray-600 mt-2">
-                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                        Formulário para agendamento de serviços, facilitando para o cliente entrar em contato e o técnico em receber os dados.
                     </p>
                     <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
                     Abrir projeto
                     </button>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover rounded-2x1" src="src/images/LojaLacoste.png" alt="Imagem do card">
+
+            <div class="max-w-sm mx-auto bg-white  rounded-2xl  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                <img class="w-full h-auto object-cover" src="src/images/LojaLacoste.png" alt="Imagem do card">
                 <div class="p-5">
-                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
+                    <h2 class="text-xl font-semibold text-gray-800">Loja Lacoste</h2>
                     <p class="text-gray-600 mt-2">
-                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
-                    </p>
-                    <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
-                    Abrir projeto
-                    </button>
-                </div>
-            </div>
-            <div class="max-w-sm mx-auto bg-white  shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-                <img class="w-full h-auto object-cover rounded-2x1" src="#" alt="Imagem do card">
-                <div class="p-5">
-                    <h2 class="text-xl font-semibold text-gray-800">Título do Card</h2>
-                    <p class="text-gray-600 mt-2">
-                    Aqui vai uma descrição curta sobre o conteúdo do card. Pode ser um resumo, produto, ou notícia.
+                        Loja e-commerce ciada usando como exemplo a loja da Lacoste.
                     </p>
                     <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
                     Abrir projeto
@@ -163,5 +200,32 @@
             </div>
         </div>
     </section>
+
+    <footer id="contato" class="flex flex-col justify-center text-center mt-50 mb-10 max-w-7xl mx-auto">
+        <div>
+            <h2 class="text-3xl font-black m-2">Contato</h2>
+            <p>Entre em contato para discutir seu projeto ou tirar dúvidas.</p>
+        </div>
+        <div class="flex justify-center gap-10 m-8">
+            <div>
+                <a href="https://wa.me/5527996884145">
+                    <img class="w-10 h-10" src="src/icon/whatsapp.png" alt="ìcone do whatsapp">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/ondev_code/">
+                    <img class="w-10 h-10" src="src/icon/instagram.png" alt="ìcone do Instagram">
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/IsaacAguiar027">
+                    <img class="w-10 h-10" src="src/icon/github.png" alt="ìcone do GitHub">
+                </a>
+            </div>
+        </div>
+        <div>
+            <p>&copy; 2025 Isaac Aguiar - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
